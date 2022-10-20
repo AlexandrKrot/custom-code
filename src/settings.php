@@ -56,7 +56,7 @@ class settings extends  core {
      */
     public function settingsTemplete()
     {
-        add_submenu_page('options-general.php','pechenki-custom-code',  'Custom Code 🩼', 'manage_options', 'pechenki-custom-code', array($this, 'settings'),);
+        add_submenu_page('options-general.php','pechenki-custom-code',  'Custom Code 🩼', 'manage_options', 'pechenki-custom-code', array($this, 'settings'));
 
     }
     /*
